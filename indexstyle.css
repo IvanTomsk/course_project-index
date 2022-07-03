@@ -1,0 +1,101 @@
+header {
+    background: tan;
+    padding: 7px;
+    margin-bottom: 10px;
+    border: 4px solid black;
+    letter-spacing: 6px;
+    font-style: italic;
+    color: lavenderblush
+}
+
+body {
+    font-family: "Roberto", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background: #f1f1f1;
+    color: #0f141e;
+}
+
+.pep {
+    background: PaleTurquoise;
+    padding: 2px;
+    border: 2px solid navy;
+    border-radius: 20px;
+}
+
+.pep h3 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 5px;
+}
+
+.pep #a1 {
+    padding-left: 15px;
+}
+
+.mem p{
+    letter-spacing: 1px;
+    color: #86898f;
+}
+
+li {
+    font-size: 17px;
+}
+
+form {
+    border: 2px solid navy
+}
+
+form , input, textarea {
+    background: AliceBlue;
+    letter-spacing: 1px;
+    padding: 5px;
+    border-radius: 10px;
+    color: navy
+}
+
+input, textarea {
+    border: 2px solid black;
+}
+
+
+form h3 {
+    background: #eee;
+    color: navy;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.op {
+    text-decoration: line-through;
+}
+
+.card, .pep{
+    margin-bottom: 10px;
+}
+
+.hob {
+    background: lightgreen;
+    border: 2px solid navy;
+    border-radius: 10px;
+}
+.hob h3 {
+    padding-left: 10px;
+}
+
+.op {
+    background: MidnightBlue;
+    color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 2px solid navy
+}
+
+.vuz {
+    background: LightSkyBlue;
+    font-weight: bold;
+    border-radius: 14px;
+    padding: 7px;
+    border: 2px solid navy
+}
+
+
+
