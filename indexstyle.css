@@ -373,3 +373,10 @@ a:active {
         margin-bottom: 10px;
     }
 }
+
+@media (max-width: 770px) {
+    .hob li {
+        /* border: 3px solid black; */
+        width: 50%;
+    }
+}
