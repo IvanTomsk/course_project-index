@@ -1,101 +1,375 @@
-header {
-    background: tan;
-    padding: 7px;
-    margin-bottom: 10px;
-    border: 4px solid black;
-    letter-spacing: 6px;
-    font-style: italic;
-    color: lavenderblush
-}
+/* * { */
+    /* padding: 0; */
+    /* margin: 0; */
+/* } */
 
 body {
-    font-family: "Roberto", sans-serif;
-    font-size: 16px;
-    font-weight: normal;
-    background: #f1f1f1;
-    color: #0f141e;
-}
-
-.pep {
-    background: PaleTurquoise;
-    padding: 2px;
-    border: 2px solid navy;
-    border-radius: 20px;
-}
-
-.pep h3 {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding-left: 5px;
-}
-
-.pep #a1 {
-    padding-left: 15px;
-}
-
-.mem p{
-    letter-spacing: 1px;
-    color: #86898f;
-}
-
-li {
-    font-size: 17px;
-}
-
-form {
-    border: 2px solid navy
-}
-
-form , input, textarea {
-    background: AliceBlue;
-    letter-spacing: 1px;
-    padding: 5px;
-    border-radius: 10px;
-    color: navy
-}
-
-input, textarea {
-    border: 2px solid black;
-}
-
-
-form h3 {
     background: #eee;
-    color: navy;
-    border: 3px solid black;
-    border-radius: 10px;
 }
+
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding-top: 15px;
+}
+
+
+
+
+.info .kms {
+    height: 50%;
+    width: 1000px;
+}
+
+
+
+.info {
+    display: flex;
+    /* border: 3px solid black; */
+    /* border-radius: 20px; */
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+    padding: 12px;
+    margin-bottom: -20px;
+    
+    background: transparent;
+}
+
+.kms-soc h1 {
+    font-size: 40px;
+    /* font-style: italic; */
+    margin-bottom: -23px;
+}
+
+.kms-soc {
+    margin-left: 40px;
+}
+
+header {
+    /* border: 3px solid black; */
+    width: 420px;
+}
+
+header h1 {
+
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 3px;
+    color: #eee;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    /* border: 3px solid white; */
+    background: black;
+    margin-right: 50px;
+    margin-left: 28px;
+    border-radius: 10px;
+
+}
+
+.avatar {
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 1); /* создание теней вокруг фото */
+
+    transition: all 0.2s;
+}
+
+.avatar:hover {
+    width: 450px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 1); 
+}
+
+
+.kms-soc .kms {
+    /* border: 2px solid black; */
+    padding: 5px;
+    margin-top: 50px;
+    width: 455px;
+    height: 40%;
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: gray;
+    line-height: 15px;
+}
+
+.kms-soc .kms p {
+    margin-bottom: -10px;
+    line-height: 20px;
+}
+
+.soc {
+    /* border: 2px solid black; */
+    margin-bottom: 20px;
+    margin-left: 10px;
+    line-height: 10px;
+    margin-top: 50px;
+}
+
+.soc h3 {
+    margin-top: -50px;
+    font-style: italic;
+}
+
+
+
+.card {
+    /* border: 3px solid black; */
+
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    border-radius: 20px ;
+    font-size: 20px;
+}
+
+
+
 .op {
-    text-decoration: line-through;
-}
-
-.card, .pep{
-    margin-bottom: 10px;
-}
-
-.hob {
-    background: lightgreen;
-    border: 2px solid navy;
-    border-radius: 10px;
-}
-.hob h3 {
-    padding-left: 10px;
-}
-
-.op {
-    background: MidnightBlue;
-    color: white;
-    border-radius: 10px;
-    padding-left: 10px;
-    border: 2px solid navy
+    background: rgb(186, 239, 255);
 }
 
 .vuz {
-    background: LightSkyBlue;
-    font-weight: bold;
-    border-radius: 14px;
-    padding: 7px;
-    border: 2px solid navy
+    background: rgb(248, 255, 190);
+    padding: 15px;
 }
 
 
 
+/* ссылки */
+a {
+    text-decoration: none;
+    color: gray
+}
+
+/* a:visited { */
+    /* color: navy; */
+/* } */
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+a:active {
+    color: orangered
+}
+/* ссылки */
+
+
+
+/* кнопки */
+.btn {
+    background: #111;
+    color: #eee;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    padding: 13px;
+}
+
+.btn:hover {
+    background: #eee;
+    color: black;
+    opacity: 0.8;
+    border:1px solid black;
+}
+
+.btn:active {
+    background: blanchedalmond;
+}
+
+
+/* работа с таблицей */
+.vuz table {
+    padding: 10px;
+    width: 100%;
+}
+
+
+.vuz table th {
+    text-align: left;
+    padding-bottom: 8px;
+}
+
+.vuz table td {
+    padding-bottom: 13px;
+    border-radius: 5px;
+}
+
+.vuz td:hover {
+    background: #eeefff;
+}
+
+.vuz table th:hover {
+    background: #c1ffbe;
+}
+/* работа с таблицей */
+
+/* работа со списком */
+
+.hob {
+    background: #c1ffbe;
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 22px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.hob ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hob ol li {
+    margin-bottom: 8px;
+    border-left: 5px solid black;
+    /* border: 3px solid black; */
+    background: rgba(242, 239, 253, 1);
+    margin-right: 550px;
+    padding: 2px;
+    padding-left: 4px;
+    border-radius: 2px;
+}
+
+.hob ol li:hover {
+    background: black;
+    color:white;
+    border-left: 5px solid rgba(242, 239, 253, 1) ;
+}
+/* работа со списком */
+
+.hhh {
+    padding-left: 5px;
+}
+
+.hhh:hover {
+    background: rgba(242, 239, 253, 1);
+    padding-left: 5px;
+    margin-right: 380px;
+    border-radius: 10px;
+}
+
+/* .kms p:hover { */
+    /* color: tan */
+/* } */
+
+.table td:nth-child(2), .table td:nth-child(3) {
+    color: #86898f
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: gray
+}
+
+.form .inn input, .form .inn textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+    box-sizing: border-box;
+    background: transparent;
+    padding-bottom: 7px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: black;
+    outline: none;
+}
+
+.form .inn textarea {
+    margin-top: -20px;
+    padding-bottom: 20px;
+}
+
+.svaz {
+    margin-bottom: 30px;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex; /* сместить элементы в линию */
+}
+
+.form-row .inn {
+    /* display: inline-block; */
+    margin-right: 20px;
+    /* width: 47%; */
+    width: 50%;
+}
+
+.form-row .inn:last-child {
+    margin-right: 0;
+}
+
+
+
+/* .list li {
+    display: inline;
+    margin-right: 50px;
+    text-decoration: underline;
+    color: #c24536;
+    padding: 0px 10px;
+}
+
+.list li:hover {
+    background-color: #224929;
+    cursor: pointer;
+}
+
+.list {
+    background: black;
+    width: 77%;
+} */
+
+/* Адаптирование */
+@media (max-width: 900px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+
+    .info header {
+        /* border: 3px solid black; */
+        width: 100%;
+    }
+
+    .info .kms {
+        /* border: 3px solid black; */
+        width: 100%;
+        margin-top: 10px;
+        padding: 2px;
+        font-size: 14px;
+    }
+
+    .info h1 {
+        margin-bottom: 6px;
+    }
+
+    .info .soc {
+        margin-top: 80px;
+    }
+
+    .form-row  {
+        display: block;
+    }
+
+    .form-row .inn {
+        width: 100%;
+        margin-right: 0;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+}

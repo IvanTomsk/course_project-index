@@ -9,97 +9,120 @@
     <meta name="keywords" content="my life">
     <meta name="description" `content="Обо мне">
     <title>Ivan Sem</title>
+
     <link rel="stylesheet" href="indexstyle.css">
+
+
 </head>
 
 <body>
-    <header>
-        <img src="https://sun4-17.userapi.com/impg/CswpnTS5zgOWis6pxwe5kiw9sAbz1xy5xUlfFQ/MXdYub4q2Iw.jpg?size=1280x960&quality=96&sign=aa7f0cff8d4c3946014b43a321846ba4&type=album" alt="Мое фото" width="400" height="300">
-        <h1>Семенов Иван</h1>
-    </header>
-    <div class="mem">
-        <p>Я <strong>Кандитат в Мастера Спорта</strong> по <em>прыжкам на батуте</em> и будущий <strong>front-end разработчик</strong></p>
-        <p>Я люблю заниматься спортом, программировать и изучать новые it технологии</p>
+    <div class="container">
+        <div class="info">
+            <header>
+                <img src="https://sun4-17.userapi.com/impg/CswpnTS5zgOWis6pxwe5kiw9sAbz1xy5xUlfFQ/MXdYub4q2Iw.jpg?size=1280x960&quality=96&sign=aa7f0cff8d4c3946014b43a321846ba4&type=album" alt="Мое фото" class="avatar">
+                <!-- <h1>Семенов Иван</h1> -->
+            </header>
+            <div class="kms-soc">
+                <h1>Семенов Иван</h1>
+                <div class="kms">
+                    <p>Я <strong>Кандитат в Мастера Спорта</strong> по <em>прыжкам на батуте</em> и будущий <strong>front-end разработчик</strong></p>
+                    <p>Я люблю заниматься спортом, программировать и изучать новые it технологии</p>
+                </div>
+
+                <div class="soc">
+                    <h3>Список моих социальных сетей:</h3>
+                    <a id="a1" href="#">Instagram |</a>
+                    <a href="#">Telegram |</a>
+                    <a href="https://vk.com/notcare_e" target="_blank">VK</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card hob">
+            <h3 class="hhh">Мои хобби:</h3>
+            <ol>
+                <li>Путешествия</li>
+                <li>Спорт</li>
+                <li>Музыка</li>
+            </ol>
+        </div>
+
+        <div class="card op">
+            <h3 class="hhh">Опыт работы: нет (студент)</h3>
+        </div>
+
+        <div class="card vuz">
+            <h3 class="hhh">Основные IT программы в моем вузе</h3>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Профессия</th>
+                        <th>Время изучения</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Web-разработка</td>
+                        <td>Фуллстек разработчик</td>
+                        <td>2-5 семестров</td>
+                    </tr>
+                    <tr>
+                        <td>Разработка мобильных приложений</td>
+                        <td>IOS разработчик</td>
+                        <td>1-4 семестра</td>
+                    </tr>
+                    <tr>
+                        <td>Data science</td>
+                        <td>Аналитик данных</td>
+                        <td>1-4 семестра</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <div class="svaz">
+            <form class="form">
+                <h2>Связаться со мной</h2>
+                <div class="form-row">
+                    <div class="inn">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" placeholder="Введите имя">
+                    </div>
+
+                    <div  class="inn">
+                        <label for="email">Ваш email:</label>
+                        <input type="email" id="email" placeholder="Введите email">
+                    </div>
+                </div>
+
+                <div  class="inn">
+                    <label for="message">Ваше сообщение:</label> <br>
+                    <textarea id="message" cols="25" rows="5" placeholder="Введите сообщение..."></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" value="Отправить!" class="btn" >
+                    <input type="reset" value="Сбросить введенные данные" class="btn">
+                </div>
+            </form>
+        </div>
+
+            <!-- <ul class="list">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+                <li>Item 5</li>
+                <li>Item 6</li>
+            </ul> -->
+
     </div>
-
-    <hr>
-
-    <div class="pep">
-    <h3>Список моих социальных сетей:</h3>
-        <a id="a1" href="#">Instagram |</a>
-        <a href="#">Telegram |</a>
-        <a href="https://vk.com/notcare_e" target="_blank">VK</a>
-    </div>
-
-
-    <div class="card hob">
-        <h3>Мои хобби:</h3>
-        <ol>
-            <li>Путешествия</li>
-            <li>Спорт</li>
-            <li>Музыка</li>
-        </ol>
-    </div>
-
-    <div class="card op">
-        <h3>Опыт работы: нет (студент)</h3>
-    </div>
-    <div class="card vuz">
-        <h3>Основные IT программы в моем вузе</h3>
-        <table border="1">
-            <thead>
-                <tr>
-                    <th>Название</th>
-                    <th>Профессия</th>
-                    <th>Время изучения</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Web-разработка</td>
-                    <td>Фуллстек разработчик</td>
-                    <td>2-5 семестров</td>
-                </tr>
-                <tr>
-                    <td>Разработка мобильных приложений</td>
-                    <td>IOS разработчик</td>
-                    <td>1-4 семестра</td>
-                </tr>
-                <tr>
-                    <td>Data science</td>
-                    <td>Аналитик данных</td>
-                    <td>1-4 семестра</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-
-    <hr>
-
-    <form>
-        <h3>Связаться со мной</h3>
-    <div>
-        <label for="name">Ваше имя:</label>
-        <input type="text" id="name" placeholder="Введите имя">
-    </div>
-
-    <div>
-        <label for="email">Ваш email:</label>
-        <input type="email" id="email" placeholder="Введите email">
-    </div>
-
-    <div>
-        <label for="message">Ваше сообщение:</label> <br>
-        <textarea id="message" cols="25" rows="5" placeholder="Введите сообщение..."></textarea>
-    </div>
-
-    <div>
-        <input type="submit" value="Отправить!">
-        <input type="reset" value="Сбросить введенные данные">
-    </div>
-    </form>
-
-
 
 </body>
 
